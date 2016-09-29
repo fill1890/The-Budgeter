@@ -1,0 +1,29 @@
+ Problem: I want an app that will allow me to track my budget, expenses, savings, etc., since I don't currently have one and I can't be bothered to look for one. Besides, this is a good reason to do some development.
+ 
+| Feature | Purpose |  
+| :------------------ | :------------------: |  
+| Set a current savings level | Provides a starting point for the budget |  
+| Set an income with a set time period income | Provides the program with the increase in funds |  
+| Calculate savings according to initial and periodic funds | Allows the user to see their current balance |  
+| Provide a one-off bonus or deduction | Allows the user to cater to differing circumstances |
+| Set periodic expenses | Allows the user to apply a periodic deduction for payments such as bills or expenses |
+
+Calculate averages for various time periods for income and expenses  
+Show current time period's income and expenses (e.g. expenses over current month)  
+Keep history  
+Show in vs. out  
+Allow editing of one-time and recurring flow  
+Categories for expenses and income  
+Remember previous large payments
+* $10 week
+* $100(0) month
+* etc.
+Remember changed in recurring income
+
+
+Initial UI:
+* In vs. out
+* Pie chart of expenses
+* Pie chart of income
+* Average flow
+* Month flow (Change time periods)

@@ -1,0 +1,35 @@
+Implement everything (See 'Project Information')
+- Design UI
+- Design code architecture
+- Implement architecture and UI
+
+Immediate Priorities:
+1. Mock up basic but functional UI
+2. Design code architecture around UI
+3. Implement code and UI for first level
+4. Rinse and repeat for future versions
+
+Requirements:
+* Compatible with newer versions of macOS than, say, 10.8 (Earlier if possible, 10.6 ideal)
+    (Will be decided by capabilities of Swift to run backwards)
+
+General Roadmap:
+    V1.0 (Navy Vulture):
+        * Initial UI
+            - Pie charts
+            - Averages & monthly currents
+            - Recurring and one-off flow
+        * Periodic income and expenses
+    V2.0:
+        * One-off income and expenses
+        * Initial setup UI?
+        * UI animation
+        * Back-and-forth comparison (v1.1?)
+    V3.0:
+
+www.codenamegenerator.com
+
+Future Priorities:
+* Get onto App Store
+* Port to iOS (Needs redesign of UI)
+* Translations

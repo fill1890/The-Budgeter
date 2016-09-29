@@ -1,0 +1,20 @@
+Controllers:
+* Window
+* Charts
+* Lists
+* List box parts
+* Fancy buttons
+* Separators?
+* Labels
+
+Data pool, passed to controllers
+- Inflow sources
+- Outflow sinks
+- Savings over time periods
+- One-off payments over larger time periods in magnitudes
+- Recurring payment increase/decrease
+
+File-based data store
+- Support split files to reduce size and memory usage
+
+Arithmetic layer
