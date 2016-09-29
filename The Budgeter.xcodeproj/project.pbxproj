@@ -14,6 +14,14 @@
 		497F258A1D9D154400BB2B1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 497F25881D9D154400BB2B1E /* Main.storyboard */; };
 		497F25951D9D154400BB2B1E /* The_BudgeterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497F25941D9D154400BB2B1E /* The_BudgeterTests.swift */; };
 		497F25A01D9D154400BB2B1E /* The_BudgeterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497F259F1D9D154400BB2B1E /* The_BudgeterUITests.swift */; };
+		497F25B11D9D155B00BB2B1E /* Arch.txt in Resources */ = {isa = PBXBuildFile; fileRef = 497F25AD1D9D155B00BB2B1E /* Arch.txt */; };
+		497F25B21D9D155B00BB2B1E /* Project Information.txt in Resources */ = {isa = PBXBuildFile; fileRef = 497F25AE1D9D155B00BB2B1E /* Project Information.txt */; };
+		497F25B31D9D155B00BB2B1E /* TODO.txt in Resources */ = {isa = PBXBuildFile; fileRef = 497F25AF1D9D155B00BB2B1E /* TODO.txt */; };
+		497F25B41D9D155B00BB2B1E /* UI.sketch in Resources */ = {isa = PBXBuildFile; fileRef = 497F25B01D9D155B00BB2B1E /* UI.sketch */; };
+		497F25B71D9D168D00BB2B1E /* ALU.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497F25B61D9D168D00BB2B1E /* ALU.swift */; };
+		497F25B91D9D169B00BB2B1E /* CellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497F25B81D9D169B00BB2B1E /* CellController.swift */; };
+		497F25BB1D9D16A100BB2B1E /* CDP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497F25BA1D9D16A100BB2B1E /* CDP.swift */; };
+		497F25BD1D9D16AB00BB2B1E /* ListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497F25BC1D9D16AB00BB2B1E /* ListController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		497F259B1D9D154400BB2B1E /* The BudgeterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The BudgeterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		497F259F1D9D154400BB2B1E /* The_BudgeterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_BudgeterUITests.swift; sourceTree = "<group>"; };
 		497F25A11D9D154400BB2B1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		497F25AD1D9D155B00BB2B1E /* Arch.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Arch.txt; sourceTree = "<group>"; };
+		497F25AE1D9D155B00BB2B1E /* Project Information.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Project Information.txt"; sourceTree = "<group>"; };
+		497F25AF1D9D155B00BB2B1E /* TODO.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO.txt; sourceTree = "<group>"; };
+		497F25B01D9D155B00BB2B1E /* UI.sketch */ = {isa = PBXFileReference; lastKnownFileType = file; path = UI.sketch; sourceTree = "<group>"; };
+		497F25B61D9D168D00BB2B1E /* ALU.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALU.swift; sourceTree = "<group>"; };
+		497F25B81D9D169B00BB2B1E /* CellController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellController.swift; sourceTree = "<group>"; };
+		497F25BA1D9D16A100BB2B1E /* CDP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDP.swift; sourceTree = "<group>"; };
+		497F25BC1D9D16AB00BB2B1E /* ListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +93,7 @@
 		497F25731D9D154400BB2B1E = {
 			isa = PBXGroup;
 			children = (
+				497F25B51D9D156400BB2B1E /* General */,
 				497F257E1D9D154400BB2B1E /* The Budgeter */,
 				497F25931D9D154400BB2B1E /* The BudgeterTests */,
 				497F259E1D9D154400BB2B1E /* The BudgeterUITests */,
@@ -98,6 +115,10 @@
 			isa = PBXGroup;
 			children = (
 				497F257F1D9D154400BB2B1E /* AppDelegate.swift */,
+				497F25B61D9D168D00BB2B1E /* ALU.swift */,
+				497F25B81D9D169B00BB2B1E /* CellController.swift */,
+				497F25BA1D9D16A100BB2B1E /* CDP.swift */,
+				497F25BC1D9D16AB00BB2B1E /* ListController.swift */,
 				497F25811D9D154400BB2B1E /* ViewController.swift */,
 				497F25861D9D154400BB2B1E /* Assets.xcassets */,
 				497F25881D9D154400BB2B1E /* Main.storyboard */,
@@ -123,6 +144,17 @@
 				497F25A11D9D154400BB2B1E /* Info.plist */,
 			);
 			path = "The BudgeterUITests";
+			sourceTree = "<group>";
+		};
+		497F25B51D9D156400BB2B1E /* General */ = {
+			isa = PBXGroup;
+			children = (
+				497F25AD1D9D155B00BB2B1E /* Arch.txt */,
+				497F25AE1D9D155B00BB2B1E /* Project Information.txt */,
+				497F25AF1D9D155B00BB2B1E /* TODO.txt */,
+				497F25B01D9D155B00BB2B1E /* UI.sketch */,
+			);
+			name = General;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +264,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				497F25B31D9D155B00BB2B1E /* TODO.txt in Resources */,
 				497F25871D9D154400BB2B1E /* Assets.xcassets in Resources */,
 				497F258A1D9D154400BB2B1E /* Main.storyboard in Resources */,
+				497F25B21D9D155B00BB2B1E /* Project Information.txt in Resources */,
+				497F25B11D9D155B00BB2B1E /* Arch.txt in Resources */,
+				497F25B41D9D155B00BB2B1E /* UI.sketch in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +296,11 @@
 			files = (
 				497F25821D9D154400BB2B1E /* ViewController.swift in Sources */,
 				497F25801D9D154400BB2B1E /* AppDelegate.swift in Sources */,
+				497F25B71D9D168D00BB2B1E /* ALU.swift in Sources */,
+				497F25BB1D9D16A100BB2B1E /* CDP.swift in Sources */,
 				497F25851D9D154400BB2B1E /* The_Budgeter.xcdatamodeld in Sources */,
+				497F25B91D9D169B00BB2B1E /* CellController.swift in Sources */,
+				497F25BD1D9D16AB00BB2B1E /* ListController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
